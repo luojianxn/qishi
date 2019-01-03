@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "enablePullDownRefresh":true,
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "tabBar": {
+    "color": "#dadada",
+    "selectedColor": "#09bb07",
+    "backgroundColor": "#fff",
+    "borderStyle": "#f6f6f6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"image/店铺.png",
+        "selectedIconPath": "image/店铺_.png",
+        "text": "企石同城"
+      },
+      {
+          "pagePath": "pages/logs/logs",
+          "iconPath": "image/发布.png",
+          "selectedIconPath": "image/发布_.png",
+          "text": "发布"
+      },
+        {
+          "pagePath": "pages/logs/logs",
+          "iconPath": "image/VR.png",
+          "selectedIconPath": "image/VR_.png",
+          "text": "看一看"
+        }, 
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/用户.png",
+        "selectedIconPath": "image/用户_.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
+

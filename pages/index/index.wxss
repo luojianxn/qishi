@@ -1,0 +1,46 @@
+.banner-swiper {
+  width: 100%;
+  height: 300rpx;
+  overflow: hidden;
+}
+swiper {
+  display: block;
+  height: 300rpx;
+  position: relative;
+}
+.slide-image {
+  width: 98%;
+  display: block;
+  margin: 0 auto;
+  height: 450rpx;
+  margin-top:0rpx;
+}
+
+.plate{
+  height:200rpx;
+  background: #aaa;
+  display: flex;
+}
+
+.plate-item{
+  display: flex;
+  float:left;
+  position: relative;
+  margin-top:38rpx;
+  margin-left:42rpx;
+  background: #fff;
+}
+
+.plate-img image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.plate-info{
+  position: absolute;
+  height:40rpx;
+  font-size: 25rpx;
+  font-family: '微软雅黑';
+  bottom: 60rpx;
+  left:-10rpx;
+}

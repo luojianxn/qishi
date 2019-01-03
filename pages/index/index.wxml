@@ -1,0 +1,21 @@
+<view class="banner-swiper">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" current='{{swiperCurrent}}' 
+indicator-color="{{beforeColor}}" indicator-active-color="{{afterColor}}" circular='{{circular}}' 
+previous-margin="{{previousmargin}}" next-margin="{{nextmargin}}" bindchange="swiperChange" >
+       <block wx:for="{{arr}}" wx:key="key"> 
+          <swiper-item>
+            <image src="{{item.images}}" class="slide-image"  id="{{index}}"></image>
+          </swiper-item>
+       </block> 
+    </swiper>
+  </view> 
+<view class="plate">
+  <navigator url="/pages/action/action" open-type="switchTab" hover-class="other-navigator-hover"    class="plate-item">
+      <view class="plate-img">
+        <image src="../../image/VR.png"></image>
+        </view>
+        <text class="plate-info">
+          活动资讯
+        </text>
+    </navigator>
+</view>
