@@ -35,14 +35,14 @@
       },
         {
           "pagePath": "pages/logs/logs",
-          "iconPath": "image/VR.png",
-          "selectedIconPath": "image/VR_.png",
+          "iconPath": "image/店铺.png",
+          "selectedIconPath": "image/店铺_.png",
           "text": "看一看"
         }, 
       {
         "pagePath": "pages/logs/logs",
-        "iconPath": "image/用户.png",
-        "selectedIconPath": "image/用户_.png",
+        "iconPath": "image/店铺.png",
+        "selectedIconPath": "image/店铺_.png",
         "text": "个人中心"
       }
     ]
