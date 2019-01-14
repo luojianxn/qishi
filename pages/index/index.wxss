@@ -14,20 +14,71 @@
     width:100%;
     box-sizing: border-box;
     padding:20rpx 10rpx;
-    background:url(../../images/black_line.png) repeat;
+    
     
 }
 
 .nav_top_items{
     text-align: center;
-    font-size:24rpx;
-    width:95rpx;
+    font-size:20rpx;
+    width:80rpx;
     border-radius:8rpx;
     box-sizing:border-box;
 }
 
 .nav_top_items image{
-    width:73rpx;
-    height:85rpx;
+    width:70rpx;
+    height:80rpx;
     display: inline-block;
+}
+
+.nav_section{
+  width:100%
+}
+.nav_section_buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:white;
+}
+
+.nav_section_buttons .button{
+  padding-left:20rpx;
+  padding-right:20rpx;
+  padding-top:10rpx;
+  padding-bottom:10rpx;
+  background:green;
+}
+
+.nav_section_items{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30rpx;
+    border-bottom:2rpx solid #ddd;
+    position: relative;
+    background: black
+}
+.nav_section_items .item1{
+   width:170rpx;
+   height:170rpx;
+   background: rgb(155, 24, 24)
+}
+
+.topnav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0rpx;
+    z-index:99;
+    width: 100%;
+    background:white;
+}
+.topnav .button{
+  padding-left:20rpx;
+  padding-right:20rpx;
+  padding-top:10rpx;
+  padding-bottom:10rpx;
+  background:green;
 }

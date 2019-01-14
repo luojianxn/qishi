@@ -23,26 +23,26 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath":"image/店铺.png",
-        "selectedIconPath": "image/店铺_.png",
+        "iconPath":"image/dianpu.png",
+        "selectedIconPath": "image/dianpu_.png",
         "text": "企石同城"
       },
       {
           "pagePath": "pages/logs/logs",
-          "iconPath": "image/发布.png",
-          "selectedIconPath": "image/发布_.png",
+          "iconPath": "image/fabu.png",
+          "selectedIconPath": "image/fabu_.png",
           "text": "发布"
       },
         {
           "pagePath": "pages/logs/logs",
-          "iconPath": "image/店铺.png",
-          "selectedIconPath": "image/店铺_.png",
+          "iconPath": "image/dianpu.png",
+          "selectedIconPath": "image/dianpu_.png",
           "text": "看一看"
         }, 
       {
         "pagePath": "pages/logs/logs",
-        "iconPath": "image/店铺.png",
-        "selectedIconPath": "image/店铺_.png",
+        "iconPath": "image/dianpu.png",
+        "selectedIconPath": "image/dianpu_.png",
         "text": "个人中心"
       }
     ]
