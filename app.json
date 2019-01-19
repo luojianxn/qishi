@@ -1,14 +1,15 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/details_news/news"
   ],
-  "enablePullDownRefresh":true,
-  "window":{
-    "backgroundTextStyle":"light",
+  "enablePullDownRefresh": true,
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "networkTimeout": {
     "request": 10000,
@@ -23,29 +24,28 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath":"image/dianpu.png",
+        "iconPath": "image/dianpu.png",
         "selectedIconPath": "image/dianpu_.png",
         "text": "企石同城"
       },
       {
-          "pagePath": "pages/logs/logs",
-          "iconPath": "image/fabu.png",
-          "selectedIconPath": "image/fabu_.png",
-          "text": "发布"
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/fabu.png",
+        "selectedIconPath": "image/fabu_.png",
+        "text": "发布"
       },
-        {
-          "pagePath": "pages/logs/logs",
-          "iconPath": "image/dianpu.png",
-          "selectedIconPath": "image/dianpu_.png",
-          "text": "看一看"
-        }, 
       {
         "pagePath": "pages/logs/logs",
         "iconPath": "image/dianpu.png",
         "selectedIconPath": "image/dianpu_.png",
+        "text": "看一看"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/yonghu.png",
+        "selectedIconPath": "image/yonghu_.png",
         "text": "个人中心"
       }
     ]
   }
 }
-
