@@ -53,10 +53,10 @@ scroll: function(e) {
   loadMore:function(e) {
     var that=this;
     console.log(123);
-    that.setData({
-      requestLoading: true,
-      lists: that.data.lists.concat({ ID:11,TESTTEXT:5})
-  });
+    setTimeout(function () {
+   
+      that.setData({ requestLoading: true, lists: that.data.lists.concat({ ID: 11, TESTTEXT: 5})});
+  }.bind(this),2000);
   },
   onReachBottom: function () {
     console.log("page上拉触底");

@@ -7,7 +7,7 @@
           <block wx:for-items="{{arr}}" wx:key="item.id">
               <swiper-item>
                 <block wx:if="{{item}}">
-                  <image src="{{item.images}}"  mode="aspectFill"/>
+                   <image src="{{item.images}}"  mode="aspectFill"/>
                  </block>
                 <block wx:else>
                   <image src="../../images/default_pic.png" mode="aspectFill"></image>
@@ -51,8 +51,13 @@
                 </view>
                 
            </block>
-                 <view class="loading" hidden="{{!requestLoading}}">正在载入更多...</view>
+                 
                  <view class="loading complete" hidden="{{!requestLoadingComplete}}">已加载全部</view>
+                 <view class="weui-loadmore" hidden="{{!requestLoading}}">
+                   <view class="weui-loading"></view>
+                 <view class="weui-loadmore__tips">正在加载</view>
+                  </view>
+
           </view>
         <view wx:else>暂无数据</view>   
       </view>
