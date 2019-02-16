@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    items2: [{ name: "求职招聘", image: '../../image/yonghu.png' },
+    { name: "住宿租房", image: '../../image/yonghu.png' },
+    { name: "本地问答", image: '../../image/yonghu.png' },
+    { name: "投放广告", image: '../../image/yonghu.png' },
+    { name: "其他", image: '../../image/yonghu.png' }]
   },
 
   /**

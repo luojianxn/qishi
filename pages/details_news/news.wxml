@@ -1,2 +1,17 @@
-<!--pages/details_news/news.wxml-->
-<text>pages/details_news/news.wxml</text>
+<scroll-view  scroll-y="true" style="height: 1000px;" class="page-body">
+    <view class="swiper">
+
+    </view>
+    <view class="contact">
+
+    </view>
+    <view class="item_container">
+          <block wx:for="{{items2}}" wx:key="item.id">
+        <view class="item"   bindtap="switchTab" data-index="{{index}}" data-id="{{item.id}}">
+          <view ><image src="{{item.image}}" mode="aspectFill"></image></view>
+          <view class='item-text'><text>123</text></view>
+        </view>
+      </block>
+    </view>
+
+</scroll-view >
