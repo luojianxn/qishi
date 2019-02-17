@@ -20,25 +20,18 @@
     <!--导航图标-->
    <view class="nav_top">
       <block wx:for="{{items1}}" wx:key="item.id">
-        <view class="nav_top_items {{curNavId == item.id ? 'active_'+colors[index] : ''}}"        bindtap="switchTab" data-index="{{index}}" data-id="{{item.id}}">
+        <view class="nav_top_items {{curNavId == item.id ? 'active_'+colors[index] : ''}}"        bindtap="onClickNavItem" data-index="{{index}}" data-id="{{item.id}}" data-text="{{item.name}}">
           <image src="{{item.image}}" mode="aspectFill"></image>
           <text>{{item.name}}</text>
         </view>
       </block>
     </view>
-       <view class="nav_top">
-    <block wx:for="{{items2}}" wx:key="item.id">
-        <view class="nav_top_items {{curNavId == item.id ? 'active_'+colors[index] : ''}}"        bindtap="switchTab" data-index="{{index}}" data-id="{{item.id}}">
-          <image src="{{item.image}}" mode="aspectFill"></image>
-          <text>{{item.name}}</text>
-        </view>
-      </block>
-    </view>
+
     <!--导航图标-->
      <!--list-->
       <view class="nav_section">
         <view wx:if="{{lists}}">
-               <view class="{{top>150 ? 'topnav' : 'nav_section_buttons'}}" >
+               <view class="{{top>200 ? 'topnav' : 'nav_section_buttons'}}" >
                     <view class="button">button1</view>
                     <view class="button">button1</view>
                     <view class="button">button1</view>

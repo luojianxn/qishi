@@ -9,19 +9,17 @@
 }
 .nav_top{
     display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: space-between;
     width:100%;
     box-sizing: border-box;
-    padding:20rpx 10rpx;
-    
-    
+    padding:20rpx 10rpx;   
 }
 
 .nav_top_items{
     text-align: center;
     font-size:20rpx;
-    width:80rpx;
+    width:140rpx;
     border-radius:8rpx;
     box-sizing:border-box;
 }
@@ -30,6 +28,10 @@
     width:70rpx;
     height:80rpx;
     display: inline-block;
+}
+
+.nav_top_items text{
+    display:block;
 }
 
 .nav_section{

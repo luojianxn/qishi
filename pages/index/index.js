@@ -20,10 +20,10 @@ Page({
       { name: "同城商铺", image: '../../image/dianpu.png'},
       { name: "餐饮美食", image: '../../image/dianpu.png'},
       { name: "休闲娱乐", image: '../../image/dianpu.png'},
-      { name: "企业工厂", image: '../../image/dianpu.png'}],
-    items2: [{ name: "求职招聘", image: '../../image/yonghu.png' },
-            { name: "住宿租房", image: '../../image/yonghu.png' },
-            { name: "本地问答", image: '../../image/yonghu.png' },
+      { name: "企业工厂", image: '../../image/dianpu.png'},
+      { name: "求职招聘", image: '../../image/yonghu.png' },
+      { name: "住宿租房", image: '../../image/yonghu.png' },
+      { name: "本地问答", image: '../../image/yonghu.png' },
       { name: "投放广告", image: '../../image/yonghu.png' },
       { name: "其他", image: '../../image/yonghu.png' }],
     indicatorDots: true,
@@ -66,7 +66,11 @@ scroll: function(e) {
   onPullDownRefresh: function () {
     console.log("page向上");
   },
-  
+  onClickNavItem(e){
+   var text=e.currentTarget.dataset.text;
+    var id = e.currentTarget.dataset.id;
+    wx.navigateTo({ url: "/pages/details_news/news?text=" + text + "&id=" + id});
+  },
   getList:function(){
     var that = this;
     var requestPageNum = this.data.requestPageNum, // 第几次加载数据(第几页)

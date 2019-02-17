@@ -29,7 +29,7 @@
         "text": "企石同城"
       },
       {
-        "pagePath": "pages/details_news/news",
+        "pagePath": "pages/logs/logs",
         "iconPath": "image/fabu.png",
         "selectedIconPath": "image/fabu_.png",
         "text": "发布"
