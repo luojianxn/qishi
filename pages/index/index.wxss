@@ -68,11 +68,11 @@
 }
 
 .topnav{
+    position: fixed;
+    top: 0rpx;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    position: fixed;
-    top: 0rpx;
     z-index:99;
     width: 100%;
     background:white;

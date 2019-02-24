@@ -46,9 +46,9 @@ onLoad:function(){
 },
 scroll: function(e) {
     let that = this;
-    console.log(e.detail.scrollTop);
-    that.top = e.detail.scrollTop;
-    that.setData({ top: that.top});
+    //console.log(e.detail.scrollTop);
+    var top = e.detail.scrollTop;
+    that.setData({ top: top});
   },
   loadMore:function(e) {
     var that=this;

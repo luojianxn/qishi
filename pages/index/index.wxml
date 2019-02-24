@@ -31,7 +31,7 @@
      <!--list-->
       <view class="nav_section">
         <view wx:if="{{lists}}">
-               <view class="{{top>200 ? 'topnav' : 'nav_section_buttons'}}" >
+               <view class="{{top>235 ? 'topnav' : 'nav_section_buttons'}}" >
                     <view class="button">button1</view>
                     <view class="button">button1</view>
                     <view class="button">button1</view>
